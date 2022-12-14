@@ -1,8 +1,27 @@
 /*
 
+Copyright (c) Daniel Ellermann
+
 This CSS file will be included with your plugin, and
 available in the app when your plugin is enabled.
 
-If your plugin does not need CSS, delete this file.
-
 */
+
+.language-console {
+  font-family: var(--font-monospace-default);
+  font-size: var(--code-size);
+}
+.console-prompt {
+  color: var(--code-string);
+  font-weight: bold;
+  padding-right: 1ex;
+}
+.console-prompt-root {
+  color: var(--code-operator);
+}
+.console-command {
+  color: var(--code-function);
+}
+.console-output {
+  color: var(--code-normal);
+}
