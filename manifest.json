@@ -1,7 +1,7 @@
 {
 	"id": "console",
 	"name": "Console Markdown Plugin",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
 	"description": "Renders console commands and their output.",
 	"author": "Daniel Ellermann",
