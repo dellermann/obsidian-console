@@ -11,7 +11,7 @@ export default class CodePlugin extends Plugin {
 
       const pre = el.createEl("pre", { cls: "language-console" });
       for (const line of lines) {
-        const m = line.match(/^\s*([>#%\$])\s*(.+)$/);
+        const m = line.match(/^\s*([>#%\$])\s+(.+)$/);
         if (m != null) {
           const div = pre.createEl("div");
           div.createEl(
